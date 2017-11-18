@@ -1,12 +1,12 @@
 .headline {
   font-weight: 300;
-  font-size: 1.9em;
+  font-size: 1.9rem;
   color: $mainBlue;
 
-
-  @mixins atSmall {
+  @mixin atSmall {
     font-size: 2.875rem;
   }
+
   &--center {
     text-align: center;
   }
@@ -18,7 +18,7 @@
   &--small {
     font-size: 1.2rem;
 
-    @mixins atSmall {
+    @mixin atSmall {
       font-size: 1.875rem;
     }
   }
